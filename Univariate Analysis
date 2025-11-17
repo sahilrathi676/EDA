@@ -1,0 +1,41 @@
+# Univariate Analysis on Titanic Dataset
+
+## Overview
+This project performs univariate analysis on the Titanic dataset to understand the distribution and characteristics of individual variables. Univariate analysis involves examining each variable separately to summarize and find patterns, which is essential for initial data exploration and feature understanding.
+
+## Dataset
+The dataset used is the well-known Titanic passenger dataset containing information such as passenger ID, survival status, ticket class, name, sex, age, number of siblings/spouses aboard, number of parents/children aboard, ticket number, fare, cabin, and port of embarkation.
+
+## Libraries Used
+- pandas
+- numpy
+- matplotlib
+- seaborn
+
+## Analysis Steps
+- Loading the dataset from a CSV file.
+- Displaying the dataset preview and structure.
+- Statistical summary of numerical variables.
+- Visualization of distributions for categorical and numerical variables using:
+  - Histograms
+  - Box plots
+  - Count plots
+- Handling missing values inspection.
+- Exploring key variables like `Age`, `Fare`, `Pclass`, `Sex`, `Survived` and others individually.
+- Correlation heatmap for numerical variables to understand relationships.
+
+## What You Will Learn
+- How to perform univariate analysis on a dataset.
+- Visualizing distribution of variables.
+- Handling and checking missing data during explorations.
+- Using statistical summaries for quick insights.
+- Applying basic data analysis libraries in Python.
+
+## How to Run
+1. Clone the repository.
+2. Ensure Python is installed with necessary libraries (`pandas`, `numpy`, `matplotlib`, `seaborn`).
+3. Place the Titanic CSV dataset file named `titanic.csv` in the project folder.
+4. Run the Jupyter notebook or Python script to see the analysis and visualizations.
+
+## Dataset Source
+The Titanic dataset is a classic dataset often used for learning data analysis and machine learning. It can be found on [Kaggle Titanic competition](https://www.kaggle.com/c/titanic) or other open data sources.
